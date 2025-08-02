@@ -36,6 +36,11 @@ The RTS module is integrated into a pretrained text-to-image diffusion model and
 Additionally, we introduce a Temporally Asynchronous Inference (TAI) strategy to capture long-range temporal dependencies under limited memory constraints. 
 Extensive experiments show that UltraVSR achieves state-of-the-art performance, both qualitatively and quantitatively, in a single sampling step. 
 
+
+## :rocket: Update
+- **2025.07.29**: Create this repository.
+
+
 ## :world_map: License
 This project is released under the [Apache 2.0 license](./LICENSE). Redistribution and use should follow this license.
 

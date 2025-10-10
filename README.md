@@ -44,7 +44,7 @@ Extensive experiments show that UltraVSR achieves state-of-the-art performance, 
 ## :rocket: Update
 - **2025.07.29**: Create this repository.
 
-## :mag_right: Dependencies
+## :mag_right: Dependencies and Installation
 1. Clone Repository
     ```bash
     git clone https://github.com/yongliuy/UltraVSR.git
@@ -59,6 +59,11 @@ Extensive experiments show that UltraVSR achieves state-of-the-art performance, 
 
     # install python dependencies
     pip install -r requirements.txt
+
+3. Dependencies:
+[Stable Diffusion 2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1-base), 
+[TextEncoder](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link), 
+[RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
 
 ## :shopping_cart: Pretrained Models
 - Download the pretrained model from [Google Drive](https://drive.google.com/drive/folders/1EHdH312K4gwyiU6R_elX0-doXHUx-pLr?usp=sharing).
@@ -95,3 +100,6 @@ If you find this project useful for your research, please use the following BibT
   year={2025}
 }
 ```
+
+## :love_letter: Acknowledgments
+This project is based on [Diffusers](https://github.com/huggingface/diffusers), [Stable Diffusion](https://github.com/Stability-AI/stablediffusion), [OSEDiff](https://github.com/cswry/OSEDiff), and [RAM](https://drive.google.com/drive/folders/1EHdH312K4gwyiU6R_elX0-doXHUx-pLr?usp=sharing). Thanks for their awesome works :star:

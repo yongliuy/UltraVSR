@@ -64,11 +64,11 @@ Extensive experiments show that UltraVSR achieves state-of-the-art performance, 
 - Download the pretrained model from [Google Drive](https://drive.google.com/drive/folders/1EHdH312K4gwyiU6R_elX0-doXHUx-pLr?usp=sharing).
 
 ## :whale: Demo
-<a href="assets/demos/VideoLQ_007.mp4"><img src="assets/demos/thumbnail_007.png" width="320"/></a>
-<a href="assets/demos/VideoLQ_021.mp4"><img src="assets/demos/thumbnail_021.png" width="320"/></a>
-<a href="assets/demos/VideoLQ_028.mp4"><img src="assets/demos/thumbnail_028.png" width="320"/></a>
-<a href="assets/demos/VideoLQ_041.mp4"><img src="assets/demos/thumbnail_041.png" width="480"/></a>
-<a href="assets/demos/VideoLQ_045.mp4"><img src="assets/demos/thumbnail_045.png" width="485"/></a>
+<p align="center">
+  <a href="https://youtu.be/IqH3Y2-4hno">
+    <img src="assets/thumbnail.png" width="1000px"/>
+  </a>
+</p>
 
 ## :snowboarder: Running Examples
 - Prepare your test images and run the ``inference_UltraVSR.py`` with cuda on command line:

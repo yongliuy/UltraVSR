@@ -67,7 +67,7 @@ Extensive experiments show that UltraVSR achieves state-of-the-art performance, 
 [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
 
 ## :shopping_cart: Pretrained Models
-- Download the pretrained model from [Google Drive](https://drive.google.com/drive/folders/1EHdH312K4gwyiU6R_elX0-doXHUx-pLr?usp=sharing).
+Download the pretrained model from [Google Drive](https://drive.google.com/drive/folders/1EHdH312K4gwyiU6R_elX0-doXHUx-pLr?usp=sharing).
 
 ## :whale: Demo
 <p align="center">
@@ -77,7 +77,7 @@ Extensive experiments show that UltraVSR achieves state-of-the-art performance, 
 </p>
 
 ## :snowboarder: Running Examples
-- Prepare your test images and run the ``inference_UltraVSR.py`` with cuda on command line:
+Prepare your test images and run the ``inference_UltraVSR.py`` with cuda on command line:
 ```bash
 CUDA_VISIBLE_DEVICES=<GPU_ID> python inference_UltraVSR.py \
     --input_video <your_input_video_dataset_path> \

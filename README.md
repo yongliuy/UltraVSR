@@ -18,14 +18,15 @@ Chao Zhu,
 <img alt="GitHub" src="https://img.shields.io/badge/license-Apache_2.0-brightgreen">
 [![GitHub Stars](https://img.shields.io/github/stars/yongliuy/UltraVSR?style=social)](https://github.com/yongliuy/UltraVSR/)
 
-
 :sparkling_heart: If our DITN is helpful to your researches or projects, please help star this repository. Thanks! :hugs: 
-
-## :tv: Overview
 
 <p align="center">
 <img src=assets/sampleteaser.png width="1000px"/>
 </p>
+
+
+
+## :tv: Overview
 
 >In this paper, we propose UltraVSR, a novel framework that enables ultra-realistic and temporal-coherent VSR through an efficient one-step diffusion space. 
 A central component of UltraVSR is the Degradation-aware Restoration Schedule (DRS), which estimates a degradation factor from the low-resolution input and transforms iterative denoising process into a single-step reconstruction from low-resolution to high-resolution videos. 
@@ -36,9 +37,42 @@ The RTS module is integrated into a pretrained text-to-image diffusion model and
 Additionally, we introduce a Temporally Asynchronous Inference (TAI) strategy to capture long-range temporal dependencies under limited memory constraints. 
 Extensive experiments show that UltraVSR achieves state-of-the-art performance, both qualitatively and quantitatively, in a single sampling step. 
 
+<p align="center">
+<img src=assets/network.png width="1000px"/>
+</p>
 
 ## :rocket: Update
 - **2025.07.29**: Create this repository.
+
+## :mag_right: Dependencies
+1. Clone Repository
+    ```bash
+    git clone https://github.com/yongliuy/UltraVSR.git
+    cd UltraVSR
+    ```
+
+2. Create Conda Environment and Install Dependencies
+    ```bash
+    # create new conda env
+    conda create -n ultravsr python=3.10 -y
+    conda activate ultravsr
+
+    # install python dependencies
+    pip install -r requirements.txt
+
+## :shopping_cart: Pretrained Models
+- Download the pretrained model from [Google Drive](https://drive.google.com/drive/folders/1EHdH312K4gwyiU6R_elX0-doXHUx-pLr?usp=sharing).
+
+## :snowboarder: Running Examples
+- Prepare your test images and run the ``inference_UltraVSR.py`` with cuda on command line:
+```bash
+CUDA_VISIBLE_DEVICES=<GPU_ID> python inference_UltraVSR.py \
+    --input_video <your_input_video_dataset_path> \
+    --output_dir ./results_VideoSR \
+    --UltraVSR_weight_path ./pretrained_weights/model_vsr.pkl \
+    --upscale 4 \
+    --align_method 'wavelet'
+```
 
 
 ## :world_map: License

@@ -102,4 +102,4 @@ If you find this project useful for your research, please use the following BibT
 ```
 
 ## :love_letter: Acknowledgments
-This project is based on [Diffusers](https://github.com/huggingface/diffusers), [Stable Diffusion](https://github.com/Stability-AI/stablediffusion), [OSEDiff](https://github.com/cswry/OSEDiff), and [RAM](https://drive.google.com/drive/folders/1EHdH312K4gwyiU6R_elX0-doXHUx-pLr?usp=sharing). Thanks for their awesome works :star:
+This project is based on [Diffusers](https://github.com/huggingface/diffusers), [Stable Diffusion](https://github.com/Stability-AI/stablediffusion), [OSEDiff](https://github.com/cswry/OSEDiff), [RAM](https://drive.google.com/drive/folders/1EHdH312K4gwyiU6R_elX0-doXHUx-pLr?usp=sharing), and [BasicSR](https://github.com/XPixelGroup/BasicSR). Thanks for their awesome works :star:

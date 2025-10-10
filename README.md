@@ -77,9 +77,9 @@ Download the pretrained model from [Google Drive](https://drive.google.com/drive
 </p>
 
 ## :snowboarder: Running Examples
-Prepare your test images and run the ``inference_UltraVSR.py`` with cuda on command line:
+Prepare your test images and run the ``inference.py`` with cuda on command line:
 ```bash
-CUDA_VISIBLE_DEVICES=<GPU_ID> python inference_UltraVSR.py \
+CUDA_VISIBLE_DEVICES=<GPU_ID> python inference.py \
     --input_video <your_input_video_dataset_path> \
     --output_dir ./results_VideoSR \
     --UltraVSR_weight_path ./pretrained_weights/model_vsr.pkl \

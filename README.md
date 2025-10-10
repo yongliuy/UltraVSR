@@ -42,7 +42,8 @@ Extensive experiments show that UltraVSR achieves state-of-the-art performance, 
 </p>
 
 ## :rocket: Update
-- **2025.07.29**: Create this repository.
+- **2025.10**: Inference code is released.
+- **2025.07**: Create this repository.
 
 ## :mag_right: Dependencies and Installation
 1. Clone Repository
